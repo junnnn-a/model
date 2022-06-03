@@ -15,6 +15,9 @@ conda install -y pytorch torchvision -c pytorch
 pip install opencv-python==4.1.2.30 scikit-image==0.16.2 munch==2.5.0 tqdm==4.43.0
 conda install -c conda-forge dlib
 
+<인풋 이미지 하이퍼파라미터>
+inp.py --src_dir 여기다가 원하는 source 이미지 경로 적으면 된다잉?
+
 """
 
 """
