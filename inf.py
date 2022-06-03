@@ -11,7 +11,7 @@ usr 폴더에 있는 사용자 이미지를 crop하고 align하여 src 폴더에
 * Setting environment
 conda create -n stargan-v2 python=3.6.7
 conda activate stargan-v2
-conda install -y pytorch torchvision cpuonly -c pytorch
+conda install -y pytorch torchvision -c pytorch
 pip install opencv-python==4.1.2.30 scikit-image==0.16.2 munch==2.5.0 tqdm==4.43.0
 conda install -c conda-forge dlib
 
